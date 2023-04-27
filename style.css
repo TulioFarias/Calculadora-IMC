@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./img/galaxy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+div{
+    
+    width: 500px;
+    height: 750px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+    background: radial-gradient(circle, rgba(10, 0, 13, 0.356) 28%, rgba(77, 0, 105, 0.308) 54%, rgba(95,0,130,1) 57%, rgba(0, 0, 0, 0.295) 63%, rgba(119, 0, 162, 0.356) 100%);
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+
+input{
+
+    padding: 10px 90px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 252, 253, 0.5);
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    text-align: center;
+    box-shadow: rgb(213, 151, 241) 0px 30px 60px -12px inset, rgb(139, 0, 253)0px 18px 36px -18px inset;
+}
+
+
+
+button{
+    
+    margin-top: 30px;
+    padding: 20px 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    background: radial-gradient(circle, rgba(10, 0, 13, 0.808) 69%, rgba(77, 0, 105, 0.801) 91%);
+}
+
+
+button:hover{
+    opacity: 0.8;
+}
+
+textarea{
+    outline: none;
+    margin-top: 30px;
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    box-shadow: rgb(0, 0, 0) 0px 14px 28px, rgb(181, 0, 253) 0px 10px 10px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+}
